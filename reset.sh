@@ -1,1 +1,0 @@
-rm -rf .git .gitmodules game-player util
