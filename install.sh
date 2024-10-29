@@ -1,3 +1,7 @@
+# read argument from command line with default value
+$dir={$1:-"game-player-workspace"}
+mkdir -p $dir
+cd $dir
 git init
 git submodule add git@github.com:BrightSDKGamePlayer/Generator.git game-player/generator
 git submodule add git@github.com:BrightSDKGamePlayer/Util-apps-generator-gulp.git util/apps-generator-gulp
