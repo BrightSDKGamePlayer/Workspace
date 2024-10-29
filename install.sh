@@ -1,5 +1,5 @@
-# read argument from command line with default value
-$dir={$1:-"game-player-workspace"}
+dir=${1:-game-player-workspace}
+echo "installing to $dir..."
 mkdir -p $dir
 cd $dir
 git init
