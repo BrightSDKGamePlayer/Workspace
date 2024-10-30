@@ -18,4 +18,9 @@ You can also specify a custom name by adding the run argument:
 curl -sSL https://brightsdkgameplayer.github.io/Workspace/install.sh | bash -s -- my-custom-workspace
 ```
 
+# Next Steps
+
+Follow [Generator Readme](https://github.com/BrightSDKGamePlayer/Generator) to get familiar with
+the generator template development process.
+
 Happy coding!
