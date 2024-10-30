@@ -55,6 +55,6 @@ the generator template development process.
 ## Contact
 
 For any questions or support, please contact [vladislavs@brightdata.com](mailto:vladislavs@brightdata.com)
-or search for @vladislavs in [Slack Workspace](https://slack.brightdata.com).
+or search for @vladislavs in [BrightData Slack Workspace](https://brightdata.slack.com).
 
 Happy coding!
