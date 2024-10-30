@@ -5,7 +5,7 @@ This repository hosts a Bash script that will create a GamePlayer Workspace on y
 ## Table of Contents
 
 - [Installation](#installation)
-- [Project Structure](#project-structure)
+- [Workspace Structure](#workspace-structure)
 - [Next Steps](#next-steps)
 - [Contact](#contact)
 
@@ -25,9 +25,9 @@ You can also specify a custom name by adding the run argument:
 curl -sSL https://brightsdkgameplayer.github.io/Workspace/install.sh | bash -s -- my-custom-workspace
 ```
 
-## Project Structure
+## Workspace Structure
 
-The project structure is organized as follows:
+The workspace structure is organized as follows:
 
 ```
 game-player-workspace/
