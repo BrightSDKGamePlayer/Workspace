@@ -9,5 +9,6 @@ git submodule add git@github.com:BrightSDKGamePlayer/Util-app-image-processor.gi
 git submodule add git@github.com:BrightSDKGamePlayer/Util-exec.git util/exec
 git submodule add git@github.com:BrightSDKGamePlayer/Util-logger.git util/logger
 git submodule add git@github.com:vladislavs-luminati/bright-sdk-integration.git util/bright-sdk-integration
+cd game-player/generator && git submodule init && git submodule update && cd -
 cd util && ls -d */ | xargs -I {} npm install {} && cd -
 cd game-player/generator && npm install && npm run install-local && cd -
