@@ -44,21 +44,50 @@
 <body>
     <div class="container">
         <h1>BrightSDK Template-based Game Application Management Workspace</h1>
-        <p>This repository hosts a Bash script that will create a GamePlayer project on your computer.</p>
-        
-        <h2>Installation</h2>
+        <p>This repository hosts a Bash script that will create a GamePlayer Workspace on your computer.</p>
+
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#workspace-structure">Workspace Structure</a></li>
+            <li><a href="#next-steps">Next Steps</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <h2 id="installation">Installation</h2>
         <p>To install and execute the script, use the following command:</p>
         <pre><code>curl -sSL https://brightsdkgameplayer.github.io/Workspace/install.sh | bash</code></pre>
         <p>Once run, the workspace will be created in the current directory under <code>game-player-workspace</code>.</p>
-        
+
         <p>You can also specify a custom name by adding the run argument:</p>
         <pre><code>curl -sSL https://brightsdkgameplayer.github.io/Workspace/install.sh | bash -s -- my-custom-workspace</code></pre>
-        
-        <h2>Next Steps</h2>
-        <p>
-            Follow <a href="https://github.com/BrightSDKGamePlayer/Generator">Generator Readme</a>
-            to get familiar with the generator template development process.
-        </p>
+
+        <h2 id="workspace-structure">Workspace Structure</h2>
+        <p>The workspace structure is organized as follows:</p>
+        <pre><code>game-player-workspace/
+├── game-player/
+│   └── generator/
+│   └── ... more tools can be introduced later
+├── util/
+│   ├── apps-generator-gulp/
+│   ├── app-image-processor/
+│   ├── exec/
+│   ├── logger/
+│   └── bright-sdk-integration/
+│   └── ... more dependencies can be introduced later
+└── README.md
+</code></pre>
+        <ul>
+            <li><strong>game-player/generator/</strong>: Contains the generator scripts and configurations.</li>
+            <li><strong>util/</strong>: Contains various utility modules used by the project.</li>
+        </ul>
+
+        <h2 id="next-steps">Next Steps</h2>
+        <p>Follow <a href="https://github.com/BrightSDKGamePlayer/Generator">Generator Readme</a> to get familiar with the generator template development process.</p>
+
+        <h2 id="contact">Contact</h2>
+        <p>For any questions or support, please contact <a href="mailto:vladislavs@brightdata.com">vladislavs@brightdata.com</a> or search for @vladislavs in <a href="https://brightdata.slack.com">BrightData Slack Workspace</a>.</p>
+
         <p>Happy coding!</p>
     </div>
 </body>
